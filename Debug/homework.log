@@ -1,0 +1,39 @@
+﻿  Bulbs.cpp
+  CarInsoles.cpp
+  Cart.cpp
+  MyAccount.cpp
+  Product.cpp
+  SeatUpholstery.cpp
+  Store.cpp
+  main.cpp
+C:\Users\USER\source\repos\homework\homework\main.cpp(40,32): error C2664: 'Cart::Cart(const Cart &)': cannot convert argument 1 from 'std::vector<Product *,std::allocator<_Ty>>' to 'const Cart &'
+C:\Users\USER\source\repos\homework\homework\main.cpp(40,32): error C2664:         with
+C:\Users\USER\source\repos\homework\homework\main.cpp(40,32): error C2664:         [
+C:\Users\USER\source\repos\homework\homework\main.cpp(40,32): error C2664:             _Ty=Product *
+C:\Users\USER\source\repos\homework\homework\main.cpp(40,32): error C2664:         ]
+C:\Users\USER\source\repos\homework\homework\main.cpp(40,32): message : Reason: cannot convert from 'std::vector<Product *,std::allocator<_Ty>>' to 'const Cart'
+C:\Users\USER\source\repos\homework\homework\main.cpp(40,32): message :         with
+C:\Users\USER\source\repos\homework\homework\main.cpp(40,32): message :         [
+C:\Users\USER\source\repos\homework\homework\main.cpp(40,32): message :             _Ty=Product *
+C:\Users\USER\source\repos\homework\homework\main.cpp(40,32): message :         ]
+C:\Users\USER\source\repos\homework\homework\main.cpp(40,15): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\USER\source\repos\homework\homework\Cart.hpp(14,2): message : see declaration of 'Cart::Cart'
+C:\Users\USER\source\repos\homework\homework\main.cpp(70,68): error C2664: 'CarInsoles::CarInsoles(CarInsoles &&)': cannot convert argument 1 from 'CarInsoles::materials' to 'const std::string &'
+C:\Users\USER\source\repos\homework\homework\main.cpp(70,68): message : Reason: cannot convert from 'CarInsoles::materials' to 'const std::string'
+C:\Users\USER\source\repos\homework\homework\main.cpp(70,45): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\USER\source\repos\homework\homework\CarInsoles.hpp(15,2): message : see declaration of 'CarInsoles::CarInsoles'
+C:\Users\USER\source\repos\homework\homework\main.cpp(90,24): error C2039: 'add_products': is not a member of 'Cart'
+C:\Users\USER\source\repos\homework\homework\Cart.hpp(10): message : see declaration of 'Cart'
+C:\Users\USER\source\repos\homework\homework\main.cpp(104,74): error C2664: 'SeatUpholstery::SeatUpholstery(SeatUpholstery &&)': cannot convert argument 1 from 'SeatUpholstery::colors' to 'const std::string &'
+C:\Users\USER\source\repos\homework\homework\main.cpp(104,74): message : Reason: cannot convert from 'SeatUpholstery::colors' to 'const std::string'
+C:\Users\USER\source\repos\homework\homework\main.cpp(104,54): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\USER\source\repos\homework\homework\SeatUpholstery.hpp(15,2): message : see declaration of 'SeatUpholstery::SeatUpholstery'
+C:\Users\USER\source\repos\homework\homework\main.cpp(124,24): error C2039: 'add_products': is not a member of 'Cart'
+C:\Users\USER\source\repos\homework\homework\Cart.hpp(10): message : see declaration of 'Cart'
+C:\Users\USER\source\repos\homework\homework\main.cpp(138,33): error C2664: 'Bulbs::Bulbs(Bulbs &&)': cannot convert argument 2 from 'const char [4]' to 'const double &'
+C:\Users\USER\source\repos\homework\homework\main.cpp(138,33): message : Reason: cannot convert from 'const char [4]' to 'const double'
+C:\Users\USER\source\repos\homework\homework\main.cpp(138,20): message : There is no context in which this conversion is possible
+C:\Users\USER\source\repos\homework\homework\Bulbs.hpp(9,2): message : see declaration of 'Bulbs::Bulbs'
+C:\Users\USER\source\repos\homework\homework\main.cpp(157,24): error C2039: 'add_products': is not a member of 'Cart'
+  Generating Code...
+C:\Users\USER\source\repos\homework\homework\Cart.hpp(10): message : see declaration of 'Cart'
